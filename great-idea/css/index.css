@@ -64,3 +64,88 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+}
+.header nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly; 
+}
+header nav a{
+	text-decoration: none;
+	color: grey;
+}
+.innovation{
+	/* background-color: red; */
+	width: 45%;
+	padding: 2%;
+	text-align: center;
+	font-size: 80px;
+}
+.box-2 {
+	display: flex;
+	/* border: 1px solid green; */
+	width: 45%;
+	justify-content: flex-end;
+}
+.content-1 {
+	/* border: 3px solid pink; */
+	display: flex;
+	flex-direction: row;
+	height: 400px;
+}
+
+hr{
+	width: 80%;
+}
+
+.row-2 div {
+	width: 35%;
+	margin: 2%;
+	padding: 5px;
+	/* background-color: greenyellow; */
+	text-align: justify;
+	justify-content: center;
+}
+.row-2 {
+display: flex;
+justify-content: center;
+}
+.content-2{
+	justify-content: center;
+	margin: 10%;
+	align-items: center;
+}
+.content-1 img{
+	padding: 5px 0 0 0;
+	margin-top: 10%;
+}
+.row-3 div {
+	width: 30%;
+	margin: 2%;
+	padding: 5px;
+	/* background-color: greenyellow; */
+	text-align: justify;
+	justify-content: center;
+}
+.row-3 {
+	display: flex;
+	margin: 10%;
+}
+.address {
+	/* background-color: greenyellow; */
+	/* display: flex; */
+	/* justify-content: center; */
+	margin-left: 10%;
+	
+}
+#copyright {
+	justify-content: center;
+	text-align: center;
+	
+}
